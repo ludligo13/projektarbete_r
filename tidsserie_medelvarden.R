@@ -18,5 +18,5 @@ stapeldiagram <- ggplot(
   data = manad_medel,
   mapping = aes(x = factor(manad_nummer), y = medel_arbetsloshet)) +
   geom_col() +
-  labs(x = "Månad", y = "Genomsnittlig arbetslöshet (%)")
+  labs(x = "Månad", y = "Genomsnittlig arbetslöshet (%)", title = "Figur 7")
 
