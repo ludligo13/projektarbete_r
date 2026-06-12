@@ -3,4 +3,4 @@ linjeplot_n2 <- ggplot(tidsserie) +
     mapping = aes(x = Datum, y = Procent, colour = "Y")) +
   geom_line(
     mapping = aes(x = Datum, y = Z, colour = "Z")) +
-  labs(x = "År", y = "Arbetslöshet (%)", colour = "Serie", title = "Figur 8")
+  labs(x = "År", y = "Arbetslöshet (%)", colour = "Serie", title = "Figur 9")
