@@ -5,4 +5,4 @@ boxplot_n2 <- ggplot(
   data = tidsserie,
   mapping = aes(x = factor(ar), y = Procent)) +
   geom_boxplot() +
-  labs(x = "År", y = "Arbetslöshet (%)", title = "Figur 7")
+  labs(x = "År", y = "Arbetslöshet (%)", title = "Figur 8")
