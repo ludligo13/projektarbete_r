@@ -4,4 +4,4 @@ linjeplot_n3 <- ggplot(
   mapping = aes(x = Datum, y = Procent)) +
   geom_line() +
   geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-  labs(x = "År", y = "Arbetslöshet (%)", title = "Figur 9")
+  labs(x = "År", y = "Arbetslöshet (%)", title = "Figur 10")
